@@ -73,14 +73,17 @@ $("#CONS").html("<strong class='reddd'>Mistake! Verify that you are a human</str
             $(".VB").fadeIn(1500).removeClass("VB");
           })
         });
-
         setTimeout(function() {
           $("#CONS").html("Looking for <strong>" + TUSER + "</strong> account...")
         }, 6000)
 
         setTimeout(function() {
-          $("#CONS").html(" Generating " + WANTED +  " Amazon Coupon ")
+          $("#CONS").html(" Generating $" + WANTED +  " Amazon Coupon ")
         }, 9000)
+
+        setTimeout(function() {
+          $("#CONS").html("Big pressure on Amazon server")
+        }, 14000)
   }, 1500)
 
 
