@@ -74,7 +74,14 @@ $("#CONS").html("<strong class='reddd'>Mistake! Verify that you are a human</str
           })
         });
 
+        setTimeout(function() {
+          $("#CONS").html("Looking for <strong>" + TUSER + "</strong> account...")
+        }, 6000)
 
+        setTimeout(function() {
+          $("#CONS").html(" Generating " + WANTED +  " Amazon Coupon ")
+        }, 9000)
+  }, 1500)
 
 
 }
